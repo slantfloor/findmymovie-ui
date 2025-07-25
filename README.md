@@ -1,4 +1,4 @@
-# 🎬 Find My Movie UI
+# 🎬 FindMyMovie UI
 
 A simple and elegant React-based frontend to search for movies using a film quota — type what you remember, and discover the matching movie!
 
