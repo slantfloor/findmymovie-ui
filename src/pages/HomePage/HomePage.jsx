@@ -1,4 +1,5 @@
 import React from "react";
+import Logo from "../../assets/logo.png";
 
 export default function HomePage() {
   const popularQuotes = [
@@ -14,11 +15,11 @@ export default function HomePage() {
         {/* Header */}
         <header className="flex flex-col md:flex-row justify-between items-center py-6 border-b border-gray-800 space-y-4 md:space-y-0">
           <div className="flex items-center space-x-3">
-            <div className="bg-blue-600 p-1 rounded-md">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M4 4v16h16V4H4zM4 8h16M4 16h16" />
-              </svg>
-            </div>
+              <img
+                src={Logo}
+                alt="Logo"
+                className="h-10 w-10 object-contain"
+              />
             <span className="font-bold text-xl">FindMyMovie</span>
           </div>
 
